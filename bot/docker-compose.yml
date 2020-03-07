@@ -1,0 +1,6 @@
+version: '2'
+services:
+  bot:
+    build: .
+    ports:
+      - "8282:8282"
